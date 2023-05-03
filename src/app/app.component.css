@@ -1,0 +1,102 @@
+header {
+    background-color: #F5B335;
+    height: 7vh;
+    font-size: 0.8rem;
+}
+
+header .col {
+    height: 7vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-left: 1px solid #fff;
+}
+
+header i,
+header span {
+    color: #737373;
+    transition: color 0.3s ease-in-out;
+
+}
+
+header span:hover {
+    color: #004996;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+nav {
+    background-color: #fff;
+    height: 15vh;
+    font-weight: 500;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+}
+
+nav .row {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+nav .clogo {
+    margin-left: 3rem;
+    margin-right: 10rem;
+    height: 15vh;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+nav .cs {
+    margin: 0;
+    padding: 0;
+    height: 15vh;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+nav .cm {
+    margin: 0;
+    padding: 0;
+    height: 15vh;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section {
+    background-color: #004A98;
+    height: 90vh;
+}
+
+section #col1 {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+footer {
+    background-color: #303030;
+    height: 60vh;
+}
+
+footer #col1 {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}

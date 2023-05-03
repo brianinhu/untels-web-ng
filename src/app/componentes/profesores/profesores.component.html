@@ -1,0 +1,23 @@
+<h1>Lista de profesores</h1>
+<div class="container">
+    <table class="table table-dark table-hover">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Grado académico</th>
+                <th>Turno</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let pr of profesores">
+                <td>{{pr.codigo}}</td>
+                <td>{{pr.nombre}}</td>
+                <td>{{pr.apellido}}</td>
+                <td>{{pr.grado_academico}}</td>
+                <td>{{pr.turno}}</td>
+            </tr>
+        </tbody>
+      </table>
+</div>
